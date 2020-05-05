@@ -1,2 +1,2 @@
-# CNN-for-cutter-detection
-simple CNN scripts for cutter identification and testing
+# CNN-for-image-detection
+simple CNN scripts for image identification and testing
