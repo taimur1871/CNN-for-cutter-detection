@@ -15,7 +15,7 @@ predict_generator = predict_datagen.flow_from_directory(
         directory = target,
         target_size=(200, 200))
 
-new_model = tf.keras.models.load_model('/home/taimur/Pictures/Cutter_or_Not/Model/model2')
+new_model = tf.keras.models.load_model('model_path')
 
 # Check architecture
 new_model.summary()
