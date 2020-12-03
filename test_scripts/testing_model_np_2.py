@@ -11,7 +11,7 @@ folder = input('Enter file address\n')
 os.chdir(folder)
 
 file_list = os.listdir(folder)
-new_model = tf.keras.models.load_model('/home/taimur/Pictures/Cutter_or_Not/Model/model2')
+new_model = tf.keras.models.load_model('model_path')
 
 for i, file in enumerate(file_list):
     file_temp = Image.open(file)
