@@ -14,3 +14,8 @@ The following modules are part of this repo
 * Model files
 * Notebooks for object detection
 * Python scripts for testing various models
+
+### Images
+An example of semi trained model output
+
+![cutter detection](https://github.com/taimur1871/CNN-for-cutter-detection/blob/master/images/gif_frame_02.jpg)
